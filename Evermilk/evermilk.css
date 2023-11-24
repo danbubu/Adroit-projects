@@ -1,0 +1,810 @@
+
+.word1{
+    
+    color: #5B1C04;
+    font-size: 60px;
+    font-family: 'sans-serif', Itcs;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.word2{
+    color: #D80E0E;
+    font-size: 60px;
+    font-family: 'sans-serif', Itcs;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.word3{
+    color: #E3BC29;
+    font-size: 60px;
+    font-family: 'sans-serif', Itcs;
+    text-align: center;
+    margin-bottom: 130px;
+}
+/*boost*/
+.boost{
+    margin-left: -20px;
+    width: 15%;
+    margin-top: 220px;
+    padding-top: 0px;
+}
+/*know more*/
+.know{
+
+    font-size:large;
+    color: aliceblue;
+    margin-top: 510px;
+    margin-left: -139px;
+}
+.know:hover{
+    cursor: pointer;
+}
+/*links*/
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo-word{
+   
+    margin-top: -70px;
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: 7%;
+    top: 215.5px;
+    margin-left: -20px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.logo-word21{
+   
+    margin-top: -55px;
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: 7%;
+    top: 215.5px;
+    margin-left: -20px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.logo-word1{
+   
+    margin-top: -25px;
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: 7%;
+    top: 215.5px;
+    margin-left: -20px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.sh:hover{
+    color: #D80E0E;
+}
+/*Body*/
+body{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+/*Container for the entire project*/
+.parent-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: -8.5px;
+    padding: 1px;
+    border: none;
+    
+}
+/*First image container*/
+.image-1{
+    border: none;
+    flex-wrap: wrap;
+    flex: 1;
+    display: flex;
+    height: 100%;
+    object-fit: cover;
+}
+/*First Image*/
+.image1{
+    flex-wrap: wrap;
+    flex: 1;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+/*Tiny social media images at the top*/
+.social-media-icons{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    top: 14px;
+    left: 84%;
+    margin-right: 12%;
+}
+.top-icon{
+    border: none;
+    width: 49px;
+    height: 29px;
+    object-fit: cover;
+}
+.fa-facebook-f{
+    color: aliceblue;
+    margin-bottom: -10px;
+    vertical-align: middle;
+    width: 100%;
+    object-fit: cover;
+    transition: padding-bottom 0.3s;
+}
+.header-info{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border: none;
+    width: 32%;
+    height: 5%;
+    justify-content: center;
+    position: absolute;
+    top: 54px;
+    left: 60%;
+    padding: 20px 0px 2px 0px;
+    margin-right: 12%;
+}
+.fa-facebook-f:hover{
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.fa-twitter{
+    color: aliceblue;
+    margin-bottom: -10px;
+    vertical-align: middle;
+    width: 100%;
+    object-fit: cover;
+    transition: padding-bottom 0.3s;
+}
+.fa-twitter:hover{
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.fa-instagram{
+    color: aliceblue;
+    margin-bottom: -10px;
+    vertical-align: middle;
+    width: 100%;
+    object-fit: cover;
+    transition: padding-bottom 0.3s;
+}
+.fa-instagram:hover{
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.fa-500px{
+    color: aliceblue;
+    margin-bottom: -10px;
+    vertical-align: middle;
+    width: 100%;
+    object-fit: cover;
+    transition: padding-bottom 0.3s;
+}
+.fa-500px:hover{
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.top-header-info{
+    margin-top: 5px;
+    margin-right: 37px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition: cursor 0.3s, font-size 0.3s;
+}
+.top-header-info1{
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition: cursor 0.3s, font-size 0.3s;
+}
+.fa-bag-shopping{
+    color: aliceblue;
+    width: 30px;
+    height: 20px;
+    margin-bottom: -10px;
+    transition: width 0.1s;
+}
+.fa-bag-shopping img{
+    margin-top: 10px;
+    width: 30%;
+    vertical-align: middle;
+    
+}
+.fa-bag-shopping:hover{
+    cursor: pointer;
+    width: 7%;
+}
+.top-header-info:hover{
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.top-header-info1:hover{
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.red-dot{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(233, 24, 24);
+    border-radius: 9px;
+    margin-left: -16px;
+    margin-top: -13px;
+}
+.red-dot p{
+    font-size: 12px;
+    color: aliceblue;
+    margin-top: -0.5px;
+    margin-left: 6px;
+}
+.red-dot p:hover{
+    cursor: pointer;
+}
+/*First Header*/
+.header1{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 200px;
+    background-color: white;
+    
+}
+.header-1{
+    flex-wrap: wrap;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.1;
+    letter-spacing: -0.7px;
+    margin-left: -1px;
+}
+.header-1:hover{
+    cursor: default;
+}
+.shop-now{
+    display: inline-block;
+    height: 50px;
+    width: 140px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 5px;
+    background-color: #D80E0E;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border: none;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, width 0.3s, transform 0.3s;
+}
+.shop-now:hover{
+    cursor: pointer;
+    width: 10%;
+    background-color: aliceblue;
+    color: #D80E0E;
+    box-shadow: 5px 5px 10px black;
+    transform: translate(0px, -10px);
+}
+
+/*Some overlaid divs*/
+.overlaid-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+/*Second header*/
+.header-2{
+    display: block;
+    flex-wrap: wrap;
+    height: 300px;
+    background-color: #5B1C04;
+    position: relative;
+}
+.header-2 h2{
+    overflow-wrap: break-word;
+    height: 50px;
+    color: white;
+    font-size: 52px;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Abril Fatface', sans-serif;
+    word-spacing: 10px;
+
+}
+
+/*An overlaid container where it shows a vitamilk bottle next to another image*/
+.header2-galley{
+    background-color: #5B1C04;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 100px;
+}
+.chocklate-drink{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: white;
+    
+}
+.chocklate-drink img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.drink-info{
+    width: 50%;
+    
+}
+.drink-info img{
+    object-fit: cover;
+    object-position: 0px 4%;
+    width:100%;
+    height: 100%;
+    
+}
+/*Third header (A blend of......)*/
+.header-3{
+    height: 300px;
+    background-color: #0B4403;
+    position: relative;
+}
+.header-3 h2{
+    color: white;
+    font-size: 52px;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Abril Fatface', sans-serif;
+    word-spacing: 10px;
+
+}
+/*A Second overlaid container where it shows a vitamilk bottle next to another image*/
+.header2-galley2{
+    background-color: #0B4403;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: -0px;
+    padding-bottom: 100px;
+}
+.chocklate-drink2{
+    padding-top: 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+}
+.chocklate-drink2 img{
+    padding-bottom: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.logo-word2{
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: 7%;
+    top: 200.5px;
+    margin-left: -20px;
+    justify-content: center;
+    
+}
+.drink-info2{
+    width: 50%;
+    
+}
+.drink-info2 img{
+    object-fit: cover;
+    object-position: 0px 4%;
+    width:100%;
+    height: 100%;
+    
+}
+/*Fourth header (A taste of richness and health)*/
+.header-4{
+    height: 300px;
+    background-color: #E3BC29;
+    position: relative;
+}
+.header-4 h2{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 200px;
+    font-family: 'Abril Fatface', sans-serif;
+    word-spacing: 10px;
+
+}
+
+/*A fouth container where it shows a vitamilk bottle next to another image*/
+.header4-galley{
+    background-color: #E3BC29;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: -0px;
+    padding-bottom: 100px;
+}
+.chocklate-drink4{
+    padding-top: 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: white;
+}
+.chocklate-drink4 img{
+    padding-bottom: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.drink-info4{
+    width: 50%;
+    
+}
+.drink-info4 img{
+    object-fit: cover;
+    object-position: 0px 4%;
+    width:100%;
+    height: 100%;
+    
+}
+/*Fourth header (A taste of richness and health)*/
+.header-41{
+    height: 300px;
+    background-color: #5B1C04;
+    position: relative;
+}
+.header-41 h2{
+    width: 90%;
+    color: white;
+    font-size: 52px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-family: 'Abril Fatface', sans-serif;
+    word-spacing: 10px;
+
+}
+
+/*first container where it shows a vitamilk bottle next to another image*/
+.header41-galley{
+    background-color: #5B1C04;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: -0px;
+    padding-bottom: 100px;
+}
+.chocklate-drink41{
+    padding-top: 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: white;
+}
+.chocklate-drink41 img{
+    padding-bottom: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.drink-info41{
+    width: 50%;
+    
+}
+.drink-info41 img{
+    object-fit: cover;
+    object-position: 0px 4%;
+    width:100%;
+    height: 100%;
+    
+}
+/*Fifth header (The right boost of energy.....)*/
+.header-5{
+    height: 300px;
+    background-color: rgba(53, 150, 182, 0.747);
+    position: relative;
+}
+.header-5 h2{
+    width: 90%;
+    color: white;
+    font-size: 52px;
+    text-align: center;
+    margin-top: 140px;
+    font-family: 'Abril Fatface', sans-serif;
+    word-spacing: 10px;
+    margin-left: 60px;
+    
+
+}
+/*A fifth overlaid container where it shows a vitamilk bottle next to another image*/
+.header-galley5{
+    background-color: rgba(53, 150, 182, 0.747);
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: -0px;
+    padding-bottom: 100px;
+    
+}
+.chocklate-drink5{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+}
+.chocklate-drink5 img{
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+.drink-info5{
+    width: 50%;
+    
+}
+.drink-info5 img{
+    object-fit: cover;
+    object-position: 0px 28%;
+    width:100%;
+    height: 100%;
+    
+}
+/*A nice background-image*/
+.wheat-image{
+    display: flex;
+    flex: 1;
+    height: 700px;
+}
+.wheat-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+}
+/*emilk logo & name*/
+.evermilk-logo{
+    
+    background-color: white;
+    margin-left: 7.7%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.an{
+    color: black;
+}
+.evermilk-logo img:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.evermilk-logo p:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.evermilk-logo img{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.evermilk-logo p{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+/* 3x3 gallery*/
+.image-gallery{
+    margin-left: 60px;
+    background-color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-container{
+    
+    height: 400px;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    
+}
+.image-container img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.6s, width 0.3s, padding 0.3s;
+}
+.image-container img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    width: 101%;
+    padding: 0px 0px 3px 3px;
+}
+/*Buttons section*/
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+.load{
+    color: white;
+    background-color: #333;
+    padding: 3px 17px 3px 17px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, padding 0.3s;
+}
+.buttonn{
+    color: aliceblue;
+    background-color: #D80E0E;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.load:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: #333;
+    box-shadow: 5px 5px 10px black;
+}
+.buttonn:hover{
+    cursor: pointer;
+    
+    background-color: rgba(0, 149, 246, 0.7);
+    color: white;
+    box-shadow: 5px 5px 10px black;
+}
+.buttonn i{
+    margin-bottom: 0px;
+    margin-right: 0px;
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.buttonn p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer1 img{
+    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+}
+.footer1 img:hover{
+    cursor: pointer;
+}
+.footer1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    padding-bottom: 50px;
+    vertical-align: middle;
+    transition: background-size 10s;
+    background-position: 10%;
+    background: linear-gradient( 45deg,hsl(0, 100%, 50%),hsl(31, 56%, 8%) );
+    background-size: 100% 100%;
+    animation: color 15s ease-in-out infinite;
+    transition: ease-in;
+}
+/*Animation TIME!!!*/
+/*Element to animate*/
+.animation-bottle:hover{
+    cursor: default;
+    animation-name: shake;
+    animation-duration: 0.1s;
+    animation-iteration-count: 5;
+    animation-delay: 0.3s;
+    transition: ease-in;
+}
+
+/*KEyframe involved*/
+@keyframes shake{
+    from{transform: rotateZ(2deg);}
+    to{transform: rotateZ(-2deg);}
+}
+@keyframes slide-show{
+    from{transform: translate(0px, 0px);}
+    to{transform: translate(00%, 0px);}
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+
+

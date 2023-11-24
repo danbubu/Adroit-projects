@@ -1,0 +1,205 @@
+/* Parent container*/
+.parent-container{
+   
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 1000px;
+}
+/*IG Menu list*/
+.instagram-menu p, img{
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+}
+.instagram-menu img{
+    margin-top: -10px;
+}
+.create-icon{
+    
+    height: 40px;
+    width: 40px;
+    margin-left: -6px;
+    margin-right: -10px;
+}
+.instagram-menu p{
+    vertical-align: middle;
+    margin-left: 25px;
+    
+}
+.instagram-menu p{
+    transition: font-size 0.2s;
+}
+.instagram-menu p:hover{
+    font-size: 16.5px;
+}
+.instagram-menu{
+    position: fixed;
+    padding: 38px 12px 20px 0px;
+    border: 1px solid #dfdcdcb6;
+    display: flex;
+    flex-direction: column;
+    margin-top: -38px;
+    border-left: none;
+    border-bottom: none;
+
+}
+.ig-logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    
+}
+.ig-logo img{
+    width: 136px;
+    height: 48px;
+    padding-right: 60px;
+}
+.ig-logo:hover{
+    cursor: pointer;
+}
+.ig-home{
+    margin-top: 10px;
+    margin-bottom: -1px;
+    padding: 3px 10px 3px 10px;
+    transition: background-color 0.4s;
+
+    
+}
+.instagram-menu img{
+    transition: width 0.3s;
+}
+.ig-home:hover{
+    cursor: pointer;
+    background-color: #dfdcdcb6;
+    border-radius: 8px;
+    
+}
+.ig-search{
+    margin-top: 1px;
+    margin-bottom: -1px;
+    padding: 3px 10px 3px 10px;
+    transition: background-color 0.4s;
+}
+.ig-search:hover{
+    cursor: pointer;
+    background-color: #dfdcdcb6;
+    border-radius: 8px;
+}
+.ig-explore{
+    margin-top: 1px;
+    margin-bottom: -1px;
+    padding: 3px 10px 3px 10px;
+    transition: background-color 0.4s;
+}
+.ig-explore:hover{
+    cursor: pointer;
+    background-color: #dfdcdcb6;
+    border-radius: 8px;
+}
+.ig-reels{
+    margin-top: 1px;
+    margin-bottom: -1px;
+    padding: 3px 10px 3px 10px;
+    transition: background-color 0.4;
+}
+.ig-reels:hover{
+    cursor: pointer;
+    background-color: #dfdcdcb6;
+    border-radius: 8px;
+}
+.ig-messages{
+    margin-top: 1px;
+    margin-bottom: -1px;
+    padding: 3px 10px 3px 10px;
+    transition: background-color 0.4s;
+}
+.ig-messages:hover{
+    cursor: pointer;
+    background-color: #dfdcdcb6;
+    border-radius: 8px;
+}
+.ig-notifications{
+    margin-top: 1px;
+    margin-bottom: -1px;
+    padding: 3px 10px 3px 10px;
+    transition: background-color 0.4s;
+}
+.ig-notifications:hover{
+    cursor: pointer;
+    background-color: #dfdcdcb6;
+    border-radius: 8px;
+}
+.ig-create{
+    margin-top: 1px;
+    margin-bottom: -1px;
+    padding: 3px 10px 3px 10px;
+    transition: background-color 0.4s;
+}
+.ig-create:hover{
+    cursor: pointer;
+    background-color: #dfdcdcb6;
+    border-radius: 8px;
+}
+
+.ig-profile{
+    margin-top: 1px;
+    margin-bottom: -1px;
+    padding: 3px 10px 3px 10px;
+    transition: background-color 0.8s, width 1.8s;
+}
+.ig-profile:hover{
+    cursor: pointer;
+    background-color: #dfdcdcb6;
+    border-radius: 8px;
+}
+.ig-more{
+    margin-top: 30px;
+    margin-bottom: -1px;
+    padding: 3px 10px 3px 10px;
+    transition: background-color 0.4s;
+}
+.ig-more p{
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+.more{
+    margin-left: -20px;
+    width: 60px;
+    height: 60px;
+}
+.ig-more:hover{
+    cursor: pointer;
+    background-color: #dfdcdcb6;
+    border-radius: 8px;
+}
+.instagram-menu img:hover{
+size: 50%;
+}
+
+/*Watch-list(Anything else beside the menu list)*/
+
+h2{
+ margin-left: 45%;
+}    
+body{
+    padding: 20px;
+    font-family: sans-serif;
+}
+.container{
+    display: flex; /* Use flexbox layout */
+  justify-content: stretch; /* Distribute space evenly between images */
+  align-items: center; /* Align images vertically in the middle */
+  justify-self: center;
+  max-width: 500px;
+    padding: 20px;
+    width:80%;
+    margin-left: auto;
+    margin-right: 40%;
+}
+.container img{
+    width: 7%;
+    display: flex;
+    margin-right: 10px; /* Adjust as needed */
+}
